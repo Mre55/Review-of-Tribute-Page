@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+#title {
+  padding-top: 50px;
+}
+
+#img-caption {
+  padding-top: 20px;
+}
+
+#img-div {
+  background-color: white;
+  padding: 50px 20%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#tribute-info h3 {
+  padding-top: 50px; 
+}
+
+.list {
+  text-align: left;
+  padding: 30px 30%;
+}
+
+#tribute-info p {
+  text-align: left;
+  padding: 5px 30% 20px 30%;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.list li {
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.bottom {
+  padding-bottom: 50px;
+}
